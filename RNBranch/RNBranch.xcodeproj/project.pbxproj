@@ -229,7 +229,10 @@
 					"\"$(SRCROOT)/../../../ios/Pods/Headers/Public\"",
 					"\"$(SRCROOT)/../../../ios/Pods/Headers/Public/Branch\"",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -245,7 +248,10 @@
 					"\"$(SRCROOT)/../../../ios/Pods/Headers/Public\"",
 					"\"$(SRCROOT)/../../../ios/Pods/Headers/Public/Branch\"",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
